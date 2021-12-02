@@ -11,14 +11,16 @@
   --color-very-dark-blue: hsl(226, 43%, 10%);
   --color-dark-blue: hsl(235, 46%, 20%);
   --color-desaturated-blue: hsl(235, 45%, 61%);
-  --pale-blue: hsl(236, 100%, 87%);
+  --color-pale-blue: hsl(236, 100%, 87%);
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
 
+  --border-radius: 0.75em;
+
   font-size: 18px;
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-regular);
   font-family: "Rubik", sans-serif;
 
   box-sizing: border-box;
@@ -43,7 +45,7 @@ body {
 }
 
 .attribution {
-  color: var(--pale-blue);
+  color: var(--color-pale-blue);
   font-size: 11px;
   text-align: center;
   position: absolute;
